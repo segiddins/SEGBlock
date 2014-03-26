@@ -1,7 +1,10 @@
+pod 'BRYDescriptionBuilder', git: 'https://github.com/segiddins/BRYDescriptionBuilder', branch: 'keypaths'
 pod "SEGBlock", :path => "../SEGBlock.podspec"
 
-target "Demo" do
+#target "SEGBlock" do
+#end
+
+target "SEGBlockTests" do
+  pod "Expecta"
 end
 
-target "DemoTests" do
-end

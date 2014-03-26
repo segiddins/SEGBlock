@@ -1,0 +1,24 @@
+PODS:
+  - BRYDescriptionBuilder (1.0.0)
+  - Expecta (0.3.0)
+  - SEGBlock (0.1.0):
+    - BRYDescriptionBuilder
+
+DEPENDENCIES:
+  - BRYDescriptionBuilder (from `https://github.com/segiddins/BRYDescriptionBuilder`, branch `keypaths`)
+  - Expecta
+  - SEGBlock (from `../SEGBlock.podspec`)
+
+EXTERNAL SOURCES:
+  BRYDescriptionBuilder:
+    :branch: keypaths
+    :git: https://github.com/segiddins/BRYDescriptionBuilder
+  SEGBlock:
+    :path: ../SEGBlock.podspec
+
+SPEC CHECKSUMS:
+  BRYDescriptionBuilder: 75a9b131a40764b7bee865e52cb8c1acad854121
+  Expecta: 322f1dc42610106a5ba9871b4924cf1635d80833
+  SEGBlock: 9095aca7963932c808e2aad70ed91cde318bc161
+
+COCOAPODS: 0.29.0
